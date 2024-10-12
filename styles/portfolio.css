@@ -126,7 +126,7 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
-main section{
+main section {
   margin-top: 130px;
   margin-bottom: 130px;
 }
@@ -134,7 +134,6 @@ main section{
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  
 }
 .about-sec {
   box-sizing: border-box;
@@ -153,7 +152,7 @@ main section{
 .ski-des {
   padding: 10px 150px;
 }
-.skills-container{
+.skills-container {
   display: flex;
   gap: 24px;
 }
@@ -163,4 +162,57 @@ main section{
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   background: rgb(255, 255, 255);
   padding: 30px 33px;
+}
+
+/* Resume Design */
+
+/* .resume-column*2>h3.resume-column-title+.experience*3>h4.experience-title+h5.experience-sub-title+p.experience-description */
+
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+/* .resume-column {
+  width: 511px;
+  height: 175px;
+  left: 812px;
+  right: 277px;
+  top: 2604px;
+  bottom: 1477px;
+} */
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.experience-title {
+  color: rgb(71, 71, 71);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.experience-sub-title {
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.experience-desription {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.resume-download-cv{
+  margin-top: 50px;
 }
